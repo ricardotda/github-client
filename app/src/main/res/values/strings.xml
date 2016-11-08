@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GitHub Client</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="repository">Repositório</string>
+    <string name="user">Usuário</string>
+    <string name="search_users">Buscar Usuários</string>
+    <string name="search_info">Use a caixa acima para pesquisar %s</string>
+    <string name="request_fail">Falha na processament. Verifique sua conexão e tente novamente</string>
+    <string name="empty_result">Não foi encontrado nenhum resultado correspondente à sua busca</string>
+</resources>

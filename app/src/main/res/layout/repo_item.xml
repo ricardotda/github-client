@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/list_item_padding"
+    android:minHeight="?android:attr/listPreferredItemHeight">
+
+    <TextView
+        android:id="@+id/repo_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/repository"
+        android:textSize="@dimen/title_item"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/list_item_padding" />
+
+    <TextView
+        android:id="@+id/repo_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title_item"
+        android:layout_marginLeft="@dimen/list_item_padding"
+        android:layout_toRightOf="@id/repo_name_label"/>
+
+    <TextView
+        android:id="@+id/owner_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user"
+        android:textSize="@dimen/title_item"
+        android:textStyle="bold"
+        android:layout_below="@id/repo_name_label"/>
+
+    <TextView
+        android:id="@+id/owner_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_item_padding"
+        android:layout_toRightOf="@+id/owner_name_label"
+        android:textSize="@dimen/title_item"
+        android:layout_below="@id/repo_name_label"/>
+
+</RelativeLayout>
